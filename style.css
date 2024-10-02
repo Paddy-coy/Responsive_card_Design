@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    transition: all 2s;
+    background:#ADFC92;
+}
+.container {
+    display: flex;
+    background: beige;
+    margin: 100px;
+
+ width: 990px;
+ height: 450px;
+
+ margin-left: auto;
+ margin-right: auto;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+   
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+   transition: all 2s;
+
+
+ 
+}
+.div-one {
+  width: 500px;
+  height: 350px;
+  background: linear-gradient(45deg, #f7971e, #ffd200);
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  margin-right: 30px;
+  flex-grow: 4;
+  flex-basis: 800px;
+  
+
+}
+.div-two {
+    width: 9050px;
+  height: 400px;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+    margin-right: 30px;
+    flex-grow: 4;
+    flex-basis: 890px;
+}
+.div-three {
+    width: 200px;
+    height: 310px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+    flex-grow: 4;
+    flex-basis: 800px;
+}
+.div-four {
+    width: 200px;
+    height: 400px;
+    margin-left: 30px;
+    background: #EFBCD5;
+   
+    background: linear-gradient(45deg, #43e97b, #38f9d7);
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+    flex-grow: 4;
+    
+  
+    
+     
+}
+.text {
+    text-align: center;
+    
+    margin-bottom: 20px;
+ text-indent: 50px;
+ padding: 0;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 15.1px;
+ font-style: oblique;
+ font-weight: 600;
+ 
+}
+h3 {
+    text-align: center;
+}
+img {
+   margin-right: 0px;
+}
+.heading {
+    text-align: center;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: lowercase;
+    background: #F4ACB7;
+    padding-bottom: 200px;
+    margin-top: 0px;
+}
+.heading:hover {
+    color: #7698B3;
+}
+@media (max-width:900px) {
+   body {
+    background: #DAFFED;
+   }
+  .container:hover {
+    background: #EFBCD5;
+  }
+}
